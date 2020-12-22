@@ -9,4 +9,10 @@
 D:/GitHub/ProgrammingProjects/Project#01/main.cpp
 iostream
 -
+fstream
+-
+iomanip
+-
+cstdio
+-
 

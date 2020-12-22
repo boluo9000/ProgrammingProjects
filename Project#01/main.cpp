@@ -1,7 +1,20 @@
 #include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <cstdio>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "A new test now!" << std::endl;
+using namespace std;
+
+int main()
+{
+//    ifstream input("D:\\GitHub\\ProgrammingProjects\\Project#01\\input\\acetaldehyde.dat");
+    ifstream input("../input/acetaldehyde.dat");
+    int natom;
+    input >> natom;
+
+    input.close();
+
+    cout << "Number of atoms: " << natom << endl;
+
     return 0;
 }
